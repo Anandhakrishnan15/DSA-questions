@@ -12,7 +12,8 @@ def input_marks():
 def avaregeMarks(m):
     average = sum(m)/len(m)
     return average
- 
+    print()
+
 
 def grade(marks):
     if marks >=90 :
@@ -21,7 +22,6 @@ def grade(marks):
         return "A"
     elif marks >=70:
         return "B"
-
     elif marks >=60: 
         return "C"
     elif marks >=50: 
